@@ -6,7 +6,6 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="main.css">
-     <script src="bscript.js"></script>
     </head>
     
     <body>
@@ -18,7 +17,7 @@
     <div class="bag">
       <div id="home">
         <h2>HOME</h2>
-        <p class="homeScore">24</p>
+        <p id="homeScore">0</p>
         <ul>
             <button id="one" onclick="add1Home()">+1</button>
             <button id="two" onclick="add2Home()">+2</button>
@@ -28,7 +27,7 @@
 
       <div id="guest">
         <h2>GUEST</h2>
-        <p class="guestScore">18</p>
+        <p id="guestScore">0</p>
         <ul>
             <button id="one" onclick="add1Guest()">+1</button>
             <button id="two" onclick="add2Guest()">+2</button>
@@ -38,6 +37,9 @@
     </div>
     
       <button id="reset" onclick="resetScoreboard()">Reset</button>
+
+       <script src="bscript.js"></script>
+       
     </body>
 
 </html>

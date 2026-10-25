@@ -86,7 +86,7 @@ ul> button{
   color:#FFFFFF;
 }
 
-.homeScore, .guestScore{
+#homeScore, #guestScore{
     border: solid 0px;
     border-radius: 12px;
     background-color: #1E353C;
