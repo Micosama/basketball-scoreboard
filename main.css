@@ -86,7 +86,7 @@ ul> button{
   color:#FFFFFF;
 }
 
-.nom1, .nom2{
+.homeScore, .guestScore{
     border: solid 0px;
     border-radius: 12px;
     background-color: #1E353C;
@@ -111,4 +111,10 @@ ul> button{
     font-size: 1.2rem;
     font-weight: 600;
     border: solid 0px;
+}
+
+button:hover{
+    background-color: #1E353C;
+    color: #FFFFFF;
+    cursor: pointer;
 }

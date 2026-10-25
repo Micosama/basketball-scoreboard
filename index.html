@@ -18,26 +18,26 @@
     <div class="bag">
       <div id="home">
         <h2>HOME</h2>
-        <p class="nom1">24</p>
+        <p class="homeScore">24</p>
         <ul>
-            <button id="one">+1</button>
-            <button id="two">+2</button>
-            <button id="three">+3</button>
+            <button id="one" onclick="add1Home()">+1</button>
+            <button id="two" onclick="add2Home()">+2</button>
+            <button id="three" onclick="add3Home()">+3</button>
         </ul>
       </div>
 
       <div id="guest">
         <h2>GUEST</h2>
-        <p class="nom2">18</p>
+        <p class="guestScore">18</p>
         <ul>
-            <button id="one">+1</button>
-            <button id="two">+2</button>
-            <button id="three">+3</button>
+            <button id="one" onclick="add1Guest()">+1</button>
+            <button id="two" onclick="add2Guest()">+2</button>
+            <button id="three" onclick="add3Guest()">+3</button>
         </ul>
       </div>
     </div>
     
-      <button id="reset">Reset</button>
+      <button id="reset" onclick="resetScoreboard()">Reset</button>
     </body>
 
 </html>
